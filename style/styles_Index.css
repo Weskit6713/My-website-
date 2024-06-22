@@ -1,0 +1,356 @@
+body {
+    background-color: #040404; /* Цвет фона */
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Стиль для картинки */
+.background-image {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Занимает всю ширину экрана */
+    opacity: 0.1; 
+    z-index: -1; /* Отправляем картинку за содержимое страницы */
+}
+h1 {
+        background-color: #0b0b0b; /* Цвет фона */
+        color: #fbf5f5; 
+        padding: 10px; /* Внутренние отступы */
+        text-align: center;
+        margin-top: 0%;
+}
+h2{
+    color: #fbf5f5; 
+        padding: 10px; /* Внутренние отступы */
+        text-align: center;
+}
+
+/* Остальный стиль для текста */
+.content {
+    color: #fff; /* Цвет текста  */
+    font-family: Comic Sans MS;
+}
+.link2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh; /* Занимает всю высоту видимой области браузера */
+    }
+
+.link1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.Boter1 a{
+    text-decoration:none
+}
+.Boter1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    font-family: Comic Sans MS;
+    background-color: #040404; /* Цвет фона */
+}
+a{
+    color: #fff; /* Цвет текста  */
+  }
+.Special-thanks {
+   
+    margin-top: 22%;
+    color: #ffffff; /* Цвет текста  */
+    font-family: Comic Sans MS;
+   
+}
+nav{
+    margin-left: 20%;
+}
+
+p { 
+    text-align: center;
+}
+/*  ///////////////////////*/
+
+	/* Стиль */
+	body {
+		background-color: #000; /* Цвет фона */
+		margin: 0; 
+		padding: 0; 
+    
+	}
+  /* Стиль для картинки */
+.background-image {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Занимает всю ширину экрана */
+  opacity: 0.3; 
+  z-index: -1; /* Отправляем картинку за содержимое страницы */
+}
+.back-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh; /* Занимает всю высоту видимой области браузера */
+
+}
+.video{
+   text-align: center;
+   position: absolute;
+   left: 28%;
+   margin-top: 7%;
+}
+.audio{
+  text-align: center;
+   position: absolute;
+   left: 38%;
+   margin-top: 2%;
+}
+.video h2{
+  text-align: center;
+  color: #fbf5f5; 
+  font-family: Comic Sans MS;
+}
+.content {
+  color: #fff; /* Цвет текста  */
+  font-family: Comic Sans MS;
+  
+            color: #000; /* Цвет текста  */
+            z-index: 1; /*  текст над серым фоном */
+}
+ /* Стиль для серого полупрозрачного прямоугольника */
+ .gray-rectangle {
+  position: fixed;
+  top: 0;
+  left: 200px; /* Отступ слева */
+  right: 200px; /* Отступ справа  */
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.8); /* Серый с 50% прозрачностью */
+  z-index: -1;
+ }
+ .back-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 7px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+h3 {
+  background-color: #0b0b0b; /* Цвет фона */
+  color: #fbf5f5; 
+  padding: 10px; /* Внутренние отступы */
+  text-align: center;
+  margin-top: 0%;
+}
+p{
+  margin-left: 10px;
+  color: #fff; /* Цвет текста  */
+  font-family: Comic Sans MS;
+}
+.Jeanne {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 10px;
+  align-items: center;
+  height: 50vh; /* Занимает всю высоту видимой области браузера */
+
+}
+.Red_riding{
+  display: flex;
+  margin-left: 25%;
+  align-items: center;
+  height: 50vh; /* Занимает всю высоту видимой области браузера */
+ 
+}
+.Red_riding p{
+  color: #780202;
+}
+.Alice {
+  display: flex;
+  margin-left: 25%;
+  align-items: center;
+  height: 50vh; /* Занимает всю высоту видимой области браузера */
+
+}
+.Alice p{
+  color: #413ac6;
+}
+.Leaf {
+  display: flex;
+  margin-left: 25%;
+  align-items: center;
+  height: 50vh; /* Занимает всю высоту видимой области браузера */
+
+}
+.Leaf p{
+  color: #46c47c;
+}
+.Boter2 a{
+  text-decoration:none
+}
+a{
+  color: #fff; /* Цвет текста  */
+}
+.Boter2{
+  text-align: center;
+  margin-left: 10px;
+  font-family: Comic Sans MS;
+  background-color: #0b0b0b; /* Цвет фона */
+  padding: 10px; /* Внутренние отступы */
+ margin-top: 88%;
+}
+.map{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  ///////////////////////*/
+
+.background {
+  background-color: #000000; /* Цвет фона */
+  min-height: 100%;
+  margin: 0; 
+  padding: 0; 
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Занимает всю ширину экрана */
+ 
+  opacity: 0.8; 
+  z-index: -1; /* Отправляем картинку за содержимое страницы */
+  background-repeat: repeat-y;
+}
+h1 {
+        background-color: #0b0b0b; /* Цвет фона */
+        color: #fbf5f5; 
+        padding: 10px; /* Внутренние отступы */
+        text-align: center;
+        margin-top: 0%;
+}
+h2{
+    color: #fbf5f5; 
+        padding: 10px; /* Внутренние отступы */
+        text-align: center;
+}
+h4{
+    margin-right: 22%;
+    margin-left: 22%;
+    font-size: 25px;
+    color: #ededed; 
+  
+
+}
+/* Остальный стиль для текста */
+.content {
+    color: #fff; /* Цвет текста  */
+    font-family: Comic Sans MS;
+}
+
+.header {
+    position: relative;
+}
+.link1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.icon{
+    margin-left: 25%;
+    margin-right: 50px;
+    text-align: left; 
+   float: left;
+}
+.text{
+    margin-right: 22%;
+    margin-left: 22%;
+    font-size: 25px;
+    
+   
+}
+.Boter3 a{
+    text-decoration:none
+}
+.Boter3{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    font-family: Comic Sans MS;
+    background-color: #040404; /* Цвет фона */
+    color: #fbf5f5; 
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 0%;
+}
+a{
+    color: #fff; /* Цвет текста  */
+  }
+  .Referens{
+    margin-right: 22%;
+    margin-left: 21%;
+    text-align: center;
+    
+  }
+  .Referens:hover{
+    transform: scale(1.2);
+    border-radius: 5%;
+    z-index: 9999;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+/**********************************************/
+  .Kontakts  {
+   
+    font-size: 20px;
+    color: #ffffff; /* Цвет текста  */
+    font-family: Comic Sans MS;
+   
+}
+nav{
+    margin-left: 20%;
+    
+}
+p { 
+    text-align: center;
+}
+
+.Kotor{
+  position: fixed;
+  top: 80%;
+  left: 95%;
+  color: #fff;
+}
+/* Id */
+#text1{
+  font-style: italic;
+  margin: 2%
+}
+#head{
+  padding: 2px;
+  border: 7px solid white;
+}
+
+.table{
+  margin-right: 22%;
+  margin-left: 21%;
+}
+#verticalMenu li{
+  padding: 10px 0;
+}
+#Menu{
+  margin-right: 70%;
+  margin-left: 21%;
+  border: 5px solid black;
+  border-radius: 20%;
+  
+}
